@@ -1,9 +1,9 @@
-import "./App.css";
+import HamburgerMenu from "./components/HamburgerMenu/HamburgerMenu";
 
 function App() {
   return (
     <>
-      <h1>Hej</h1>
+      <HamburgerMenu />
     </>
   );
 }
