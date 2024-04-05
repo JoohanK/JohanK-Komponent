@@ -1,3 +1,47 @@
-h1 {
-  color: red;
+@import "../../Sass/Variables/colors.scss";
+@import "../../Sass/Variables/margin-padding.scss";
+
+.HamburgerMenu {
+  margin: $primaryMargin;
+
+  .hamburger {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    .line {
+      height: 3px;
+      background-color: $primaryColor;
+    }
+
+    .x-icon {
+      width: 30px;
+      height: 30px;
+      font-size: 2rem;
+      color: black;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .menu {
+    width: 10rem;
+    margin-top: 0.5rem;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    .menu-item {
+      padding: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: #f0f0f0;
+      }
+    }
+  }
 }
