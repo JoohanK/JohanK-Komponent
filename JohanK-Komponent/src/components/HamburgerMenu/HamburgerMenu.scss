@@ -8,9 +8,7 @@
 
   .hamburger {
     cursor: pointer;
-
     display: flex;
-
     flex-direction: column;
     justify-content: space-evenly;
 
@@ -23,8 +21,7 @@
 
   .menu {
     min-width: 10rem;
-    margin-top: 0.5rem;
-    background-color: #fff;
+    margin-top: $primaryMargin;
     border: 1px solid #ccc;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
