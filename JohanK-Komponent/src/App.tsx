@@ -1,6 +1,5 @@
 import { useState } from "react";
 import HamburgerMenu from "./components/HamburgerMenu/HamburgerMenu";
-import { FaBars, FaTimes } from "react-icons/fa";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,8 +21,13 @@ function App() {
       <HamburgerMenu
         isOpen={isOpen}
         toggleMenu={toggleMenu}
-        menuItems={menuItems}
-        color="red"
+        menuItems={menuItems} // Look menu above
+        menuSize={2} // Rem
+        iconSize={2} // Rem
+        lineHeight={3}
+        color="darkblue"
+        menuBackgroundColor="lightgrey"
+        position="start" // "start" | "center" | "end"
       />
     </>
   );
