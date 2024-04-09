@@ -2,13 +2,13 @@
 
 ![Hamburger Menu Demo](demo.gif)
 
-En enkel och anpassningsbar React-komponent för att implementera en hamburgermeny i ditt webbprojekt.
+En enkel och anpassningsbar React-komponent för att implementera en hamburgermeny i ditt webbprojekt. Har använt mig av en del animationer och tranformeringar men överlag väldig basic design och funktionalitet.
 
 ## Funktioner
 
-- Egenskapad hamburger-ikonsymbol
+- Egenskapad hamburger-ikon
 - Slät och användarvänlig öppnings- och stängningseffekt för menyn
-- Anpassningsbar med CSS/SCSS för att passa din applikations design
+- Anpassningsbar med SCSS för att passa din applikations design
 - Enkel att integrera och använda i ditt React-projekt
 
 ## Props
@@ -23,6 +23,11 @@ Dessa props kan du enkelt själv ställa in utifrån dina preferenser.
 - menuBackgroundColor="lightgrey" // Anpassa färg på menybakgrunden
 - position="start" // "start" | "center" | "end" // Anpassa positionering
 
-## Installation
+## Installation/Start
 
-Clona ner repot och kör en npm install
+Clona ner repot och kör en npm install.
+Npm run dev | Yarn dev
+
+## Pullrequests
+
+Lägg in ditt eget material och skicka en PR så kollar jag in det. Wihooo
