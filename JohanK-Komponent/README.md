@@ -15,13 +15,13 @@ En enkel och anpassningsbar React-komponent för att implementera en hamburgerme
 
 Dessa props kan du enkelt själv ställa in utifrån dina preferenser.
 
-menuItems={menuItems} // Listan ligger i App.tsx
-menuSize={2} // Anpassa menystorleken
-iconSize={2} // Anpassa storlek ikoner
-lineHeight={3} // Anpassa tjockleken på Hamburgaren
-color="darkblue" // Anpassa färg på text och ikoner
-menuBackgroundColor="lightgrey" // Anpassa färg på menybakgrunden
-position="start" // "start" | "center" | "end" // Anpassa positionering
+- menuItems={menuItems} // Listan ligger i App.tsx
+- menuSize={2} // Anpassa menystorleken
+- iconSize={2} // Anpassa storlek ikoner
+- lineHeight={3} // Anpassa tjockleken på Hamburgaren
+- color="darkblue" // Anpassa färg på text och ikoner
+- menuBackgroundColor="lightgrey" // Anpassa färg på menybakgrunden
+- position="start" // "start" | "center" | "end" // Anpassa positionering
 
 ## Installation
 
