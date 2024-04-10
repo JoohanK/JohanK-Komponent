@@ -1,5 +1,7 @@
 import { useState } from "react";
 import HamburgerMenu from "./components/HamburgerMenu/HamburgerMenu";
+import Stepper, { Step } from "./components/Stepper/Stepper";
+
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,6 +18,10 @@ function App() {
     { label: "Careers" },
   ];
 
+  const start: Step = { title: "Start", content: "1. start stepper" };
+  const midle: Step = { title: "Midle", content: "2. in the process" };
+  const finish: Step = { title: "Finish", content: "3. finish process" };
+
   return (
     <>
       <HamburgerMenu
@@ -29,6 +35,7 @@ function App() {
         menuBackgroundColor="lightgrey"
         position="start" // "start" | "center" | "end"
       />
+      <Stepper startStep={start} midleStep={midle} finishStep={finish} />
     </>
   );
 }
