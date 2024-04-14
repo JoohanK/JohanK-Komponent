@@ -2,7 +2,6 @@ import { useState } from "react";
 import HamburgerMenu from "./components/HamburgerMenu/HamburgerMenu";
 import Stepper, { Step } from "./components/Stepper/Stepper";
 
-
 function App() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -29,11 +28,11 @@ function App() {
         toggleMenu={toggleMenu}
         menuItems={menuItems} // Look menu above
         menuSize={2} // Rem
-        iconSize={2} // Rem
-        lineHeight={3}
-        color="darkblue"
-        menuBackgroundColor="lightgrey"
-        position="start" // "start" | "center" | "end"
+        iconSize={4} // Rem
+        lineHeight={7}
+        color="black"
+        menuBackgroundColor="gray"
+        position="end" // "start" | "center" | "end"
       />
       <Stepper startStep={start} midleStep={midle} finishStep={finish} />
     </>

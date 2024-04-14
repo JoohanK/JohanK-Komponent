@@ -1,7 +1,6 @@
 @import "../../Sass/Variables/stepperColors";
 @import "../../Sass/Variables/mixins";
 
-
 .stepper-container {
   @include flexDirection(column);
   height: 100vh;

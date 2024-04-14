@@ -3,8 +3,11 @@
 
 .HamburgerMenu {
   margin: $primaryMargin;
+  padding-right: $bigPadding;
   display: flex;
   flex-direction: column;
+  width: 100vw;
+  position: absolute;
 
   .hamburger {
     cursor: pointer;
@@ -13,14 +16,15 @@
     justify-content: space-evenly;
     transition-duration: 0.5s;
 
+    .x-icon {
+    }
+
+    &.open {
+      align-items: center;
+    }
+
     &:hover {
       transform: scale(1.1);
-    }
-
-    .line {
-    }
-
-    .x-icon {
     }
   }
 
@@ -33,7 +37,7 @@
     animation-duration: 1s;
 
     .menu-item {
-      padding: $primaryPadding;
+      padding: $secondaryPadding;
       margin: $primaryMargin;
       transition-duration: 500ms;
       cursor: pointer;
