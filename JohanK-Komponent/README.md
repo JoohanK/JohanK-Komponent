@@ -1,33 +1,31 @@
 # React Hamburger Menu Component
 
-![Hamburger Menu Demo](demo.gif)
-
-En enkel och anpassningsbar React-komponent för att implementera en hamburgermeny i ditt webbprojekt. Har använt mig av en del animationer och tranformeringar men överlag väldig basic design och funktionalitet.
+A simple and customizable React component for implementing a hamburger menu in your web project. It includes some animations and transformations but overall very basic design and functionality.
 
 ## Funktioner
 
-- Egenskapad hamburger-ikon
-- Slät och användarvänlig öppnings- och stängningseffekt för menyn
-- Anpassningsbar med SCSS för att passa din applikations design
-- Enkel att integrera och använda i ditt React-projekt
+- Custom hamburger icon
+- Smooth and user-friendly opening and closing effects for the menu
+- Customizable with SCSS to match your application's design
+- Easy to integrate and use in your React project
 
 ## Props
 
-Dessa props kan du enkelt själv ställa in utifrån dina preferenser.
+These props can be easily configured based on your preferences.
 
-- menuItems={menuItems} // Listan ligger i App.tsx
-- menuSize={2} // Anpassa menystorleken
-- iconSize={2} // Anpassa storlek ikoner
-- lineHeight={3} // Anpassa tjockleken på Hamburgaren
-- color="darkblue" // Anpassa färg på text och ikoner
-- menuBackgroundColor="lightgrey" // Anpassa färg på menybakgrunden
-- position="start" // "start" | "center" | "end" // Anpassa positionering
+- menuItems={menuItems} // The list is located in App.tsx
+- menuSize={2} // Customize the menu size
+- iconSize={2} // Customize icon size
+- lineHeight={3} // Customize the thickness of the hamburger
+- color="darkblue" // Customize text and icon color
+- menuBackgroundColor="lightgrey" // Customize menu background color
+- position="start" // "start" | "center" | "end" // Customize positioning
 
 ## Installation/Start
 
-Clona ner repot och kör en npm install.
-Npm run dev | Yarn dev
+Clone the repository and run "npm install" or "yarn" in your terminal.
+Start the application by run "Npm run dev" or "Yarn dev" in your terminal
 
 ## Pullrequests
 
-Lägg in ditt eget material och skicka en PR så kollar jag in det. Wihooo
+Add your own material and send a PR, and I'll check it out. Wihooo
