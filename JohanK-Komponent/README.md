@@ -1,8 +1,8 @@
-# React Hamburger Menu Component
+# React Hamburger Menu Component | JohanK
 
 A simple and customizable React component for implementing a hamburger menu in your web project. It includes some animations and transformations but overall very basic design and functionality.
 
-## Funktioner
+## Functions
 
 - Custom hamburger icon
 - Smooth and user-friendly opening and closing effects for the menu
