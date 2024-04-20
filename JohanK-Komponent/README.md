@@ -23,8 +23,14 @@ These props can be easily configured based on your preferences.
 
 ## Installation/Start
 
-Clone the repository and run "npm install" or "yarn" in your terminal.
-Start the application by run "Npm run dev" or "Yarn dev" in your terminal
+```sh
+"npm install"
+"npm run dev"
+
+"yarn"
+"yarn dev"
+
+```
 
 ## Pullrequests
 
